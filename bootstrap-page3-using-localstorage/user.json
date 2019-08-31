@@ -1,0 +1,33 @@
+var  details=[
+{
+username:"laveesha",
+password:"laveesha",
+mobile_no:"8965471023",
+city:"chd",
+email:"abc@gmail.com"
+},
+{
+username:"admin",
+password:"admin",
+mobile_no:"8965471023",
+city:"mohali",
+email:"admin@gmail.com"
+
+},
+{
+  username:"a",
+  password:"a",
+  mobile_no:"8965471023",
+  city:"panchkula",
+  email:"a@gmail.com"
+
+},
+{
+  username:"b",
+  password:"bs",
+  mobile_no:"8965471023",
+  city:"panchkula",
+  email:"b@gmail.com"
+
+}
+]

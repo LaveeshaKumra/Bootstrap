@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.icons{
+  color:gray;
+}
+</style>
+<script>
+/*
+function load(){
+
+if(window.localStorage.getItem("name")==null){
+location.assign("loginform.html");
+}
+else{
+  var a= window.localStorage.getItem("name");
+  var m= window.localStorage.getItem("mobile");
+  var c= window.localStorage.getItem("city");
+  var e= window.localStorage.getItem("email");
+  document.getElementById("username").innerHTML=a;
+  document.getElementById("mobile").innerHTML=m;
+  document.getElementById("city").innerHTML=c;
+  document.getElementById("email").innerHTML=e;
+
+  }
+}
+function byebye(){
+  window.localStorage.clear();
+  location.assign("loginform.html");
+}*/
+</script>
+</head>
+<body onload="load()">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-between">
+
+        <ul class=" navbar-nav">
+          <li class="active"><a class="nav-link" href="#">My Webpage </a></li>
+        <li class="active"><a class="nav-link" href="#">Home</a></li>
+        <li><a class="nav-link" href="#">Page 1</a></li>
+        <li><a  class="nav-link" href="#">Page 2</a></li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item d-flex text-white align-items-center "><i class="fa fa-sign-in icons"  aria-hidden="true"></i><a class="nav-link " href="#" onclick="byebye()"> Sign Out</a></li>
+        <li class="nav-item d-flex text-white align-items-center "><i class="fa fa-sign-in icons"  aria-hidden="true"></i><a class="nav-link " href="#"> Sign Up</a></li>
+        <li class="nav-item d-flex text-white align-items-center"><i class="fa fa-user-o icons"  aria-hidden="true"></i><a class="nav-link" href="#"> Login</a></li>
+      </ul>
+  </nav>
+
+
+  <div class="container-fluid" style="background-color:lightgray;">
+
+    <div class="row">
+      <div class="col-sm-3">
+          <div class="container m-2 p-2"  style="background-color:white">
+            <br>
+            <div><a href="user.png" download="new">
+              <img src="user.png" class="rounded-circle mx-auto img-thumbnail"  style="display:block" alt="Cinque Terre" width="150" height="150" ></a>
+            <br></div>
+
+        <h2 style="text-align:center" id="username" ></h2>
+        <p style="text-align:center">Programmer</p>
+        <hr>
+        <i class="fa fa-map-marker pl-4 icons"  aria-hidden="true"></i><span class="pl-4" style="color:gray" id="city">Chitkara University,Rajpura</span>
+        <br>
+        <i class="fa fa-phone pl-4 icons"   aria-hidden="true"></i><span class="pl-4" style="color:gray" id="mobile">7896541203</span>
+        <br>
+        <i class="fa fa-envelope-o pl-4 icons"  aria-hidden="true"></i><span class="pl-4" style="color:gray" id="email">beehvy@yahoo.com</span>
+        <br>
+        <i class="fa fa-language pl-4 icons"  aria-hidden="true"></i><span class="pl-4" style="color:gray">English</span>
+        <hr>
+        <center>
+        <span>
+        <i class="fa fa-twitter" style="color:blue" aria-hidden="true"></i>
+        <i class="fa fa-soundcloud" style="color:darkorange" aria-hidden="true"></i>
+      </span></center>
+</div>
+        </div>
+      <div class="col-sm-9" >
+        <div class="container m-2 p-2" style="background-color:white">
+          <h3>BACKGROUND</h3>
+          <hr>
+          <i class="fa fa-id-card-o" aria-hidden="true"></i>
+          <span class="pl-3">ABOUT</span>
+          <hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br>
+          <i class="fa fa-building" aria-hidden="true"></i><span class="pl-3">WORK EXPERIENCE</span><HR>
+          <span style="color:gray;">Project 1</span><span>,<a href="">Java</a>,<a href="">Angular</a></span>
+            <p style="color:gray">Dec,2013 - Dec,2014  <span>   <i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 year<p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <ul>
+                <li>Randon Point 1</li>
+                <li>Randon Point 2</li>
+                <li>Randon Point 3</li>
+              </ul>
+              <br>
+              <span><i class="fa fa-check-square-o" aria-hidden="true"></i></span><span class="pl-3">SKILLS</span>
+              <hr>
+              <!-- <span style="width:3px;height:10px;background-color:blue"></span> -->
+              <div style="border-left:7px solid green;border-radius: 2px;padding-left:5px;">
+              <h6>Web Development</h6>
+              <button type="button" class="btn btn-primary">HTML</button>
+              <button type="button" class="btn btn-primary">CSS</button>
+              <button type="button" class="btn btn-primary">JAVASCRIPT</button>
+            </div>
+              <HR>
+                <div style="border-left:7px solid green;border-radius: 2px;padding-left:5px;">
+                <h6>Compression</h6>
+                <button type="button" class="btn btn-primary">Mpeg</button>
+                <button type="button" class="btn btn-primary">MP4</button>
+                <button type="button" class="btn btn-primary">GIF</button>
+              </div>
+                <BR><BR>
+                <span><i class="fa fa-graduation-cap" aria-hidden="true"></i></span><span class="pl-3">EDUCATION</span><HR>
+                <H6> Bachelor of Technology , Chitkara University</h6>
+                  <p style="color:gray;">June,2017 - Jan,2021</p>
+                  <h6>CGPA: 9.0</h6>
+                  <button type="button" class="btn btn-primary">DB1101-BasicSQL</button>
+                  <button type="button" class="btn btn-primary">CS2011-Java Introduction</button><br><br>
+
+
+                  <span><i class="fa fa-heart" aria-hidden="true"></i></span><span class="pl-3">INTEREST</span><HR>
+                    <h6>Wildlife</h6>
+                    <button type="button" class="btn btn-primary">Ferrets</button>
+                    <button type="button" class="btn btn-primary">Unicorns</button>
+
+
+
+        </div>
+    </div>
+
+
+  </div>

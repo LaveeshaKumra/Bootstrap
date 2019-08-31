@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head></head>
+<style type="text/css">
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.topnav a.active {
+  background-color: #67D4DE;
+  color: white;
+}
+
+.div-bg{
+ background:rgb(34,34,34);
+ background:rgba(0,0,0,0.5);
+ color:white;
+ margin-top: 200px;
+ padding: 10px;
+ }
+.bg {
+ background-image: url("images.jpg");
+ background-position: center top;
+ background-size:100% 100%;
+ padding-top: 120px;
+}
+img{
+ border-radius:60%;
+ width:200px;
+ height:200px;
+ 
+}
+.small-bg{
+ background:rgb(220,220,220);
+  padding:20px;
+  width:25%;
+ 
+}
+div.b{display:flex;}
+div.x{
+ display:inline-block;
+ padding-left:20px;
+ width:100%
+}
+.tab{
+  border-collapse: collapse;
+  table-layout:fixed;
+  width:100%;
+  border:5px solid #8b9498;
+}
+
+.tab td,.tab th{
+border-right:5px solid #8b9498;
+}
+.tab td{
+  padding: 8px;
+}
+
+.tab tr:nth-child(even){background-color: #f2f2f2;}
+
+.tab th, .tab tr {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+button{
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  }
+.tab .last{
+padding: 20px;
+}
+
+
+</style>
+<body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#">Products</a>
+  <a href="#">Company</a>
+  <a href="#">Contact</a>
+</div>
+<hr size="5px" color="67D4DE" style="margin-top:0px" >
+<div class="bg">
+<div class="div-bg">
+<h1>Heading</h1>
+<p style="font-size:20px;">Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful.  </p>
+</div>
+</div>
+<br>
+<div style="display:flex;">
+ <div class="small-bg"><center>
+ <img src="2.jpg" alt="Flower" >
+ <h1><b>
+ <span style='color: red'>W</span>alter
+ <span style='color: blue'> H. </span>
+ <span style='color: green'>W</span>hite</b>
+ </h1>
+ </center>
+ <br><br>
+ <button style="background-color:white;color:black;border: 2px solid #4CAF50;"> Go to Homepage</button>
+ <button style="background-color: #f44336; border:none;color: white;float:right"> Wikipedia</button>
+  </div>
+  <div class="x">
+  <table class="tab">
+  <tr>
+  <th ><h2 style="color:#2db92d">Basic</h2></th>
+  <th ><h2 style="color:#5935ac">Standard</h2></th>
+  <th ><h2 style="color:#4d4dff">Premium</h2></th>
+  </tr>
+  <tr>
+  <td bgcolor="#2db92d"><h2>$99</h2></td>
+  <td bgcolor="#5935ac"><h2>$99</h2></td>
+  <td bgcolor="#4d4dff"><h2>$99</h2></td>
+  </tr>
+  <tr>
+  <td>option</td>
+  <td>option</td>
+  <td>option</td>
+  </tr>
+  <tr>
+  <td>option</td>
+  <td>option</td>
+  <td>option</td>
+  </tr>
+  <tr>
+  <td>option</td>
+  <td>option</td>
+  <td>option</td>
+  </tr>
+  <tr>
+  <td>option</td>
+  <td>option</td>
+  <td>option</td>
+  </tr>
+  <tr>
+  <td>option</td>
+  <td>option</td>
+  <td>option</td>
+  </tr>
+  <tr>
+  <td>option</td>
+  <td>option</td>
+  <td>option</td>
+  </tr>
+  <tr>
+  <td class="last">
+  <button style="background-color:white;color:black;border: 2px solid #2db92d; border-radius:5px;">Purchase</button></td>
+  <td>
+  <button style="background-color:white;color:black;border: 2px solid #5935ac;border-radius:5px;">Purchase</button></td>
+  <td>
+  <button style="background-color:white;color:black;border: 2px solid #4d4dff;border-radius:5px;">Purchase</button></td>
+  </tr>
+  </table>
+  </div>
+</div>
+ <br>
+<div  style="margin:0px 20%;">
+ <p style="word-spacing:15px; text-align:center;">Walter Hartwell White Sr., also known by his clandestine alias Heisenberg, is a fictional character and the main protagonist of Breaking Bad. He is portrayed by Bryan Cranston.
+ </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+
+  .carousel{
+    background-image:url(bgPattern.png);
+    margin-top: 20px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.bg-text{
+  color: white;
+  font-weight:bold;
+  font-size:40px;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+#BUTTON1{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  border:1px solid ;
+  padding:7px 40px;
+}
+#service{
+  text-align:center;
+  margin:0px;
+  /* text-decoration:underline #b03704; */
+}
+.gray1{
+  color:gray;
+  text-align:center;
+}
+.card1{
+  border:none;
+}
+.card-title , .card-text {
+  color:gray;
+  text-align:center;
+}
+.card-img-top{
+  background-color:lightgray;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+
+}
+
+.carousel-indicators .active {
+  background-color:#b03704;
+}
+
+.na:hover{
+  color:red;
+}
+</style>
+</head>
+<body>
+
+
+  <div class="container-fluid">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Carousel indicators -->
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <h1 style="color:white">Flat One</h1>
+                  <div class="bg-text">
+                    <h1>A FLAT <SPAN STYLE="COLOR:#b03704;">LANDING</SPAN> PAGE</h1>
+                  </div>
+                <div>
+                  <!-- <input type="button" class="btn" value="Purchase" ID="BUTTON1"> -->
+              </div>
+              </div>
+
+                <div class="carousel-item ">
+                    <h1 style="color:white">Flat One</h1>
+                    <div class="bg-text">
+                      <p>SINGLE PAGE <SPAN STYLE="COLOR:#b03704;">TEMPALATE</SPAN></p>
+                    </div>
+                    <!-- <input type="button" class="btn" value="Purchase" ID="BUTTON1"> -->
+                </div>
+
+                <div class="carousel-item ">
+                    <h1 style="color:white">Flat One</h1>
+                    <div class="bg-text">
+                      <h1>SPECIAL <SPAN STYLE="COLOR:#b03704;">OFFERS</SPAN></h1>
+
+                    </div>
+                    <!-- <input type="button" class="btn" value="Purchase" ID="BUTTON1"> -->
+                </div>
+                </div>
+                </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+  </DIV>
+
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top justify-content-between">
+  <a class="navbar-brand" href="#">Flat One</a>
+  <ul class="navbar-nav">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        HOME
+      </a>
+      <div class="dropdown-menu " style="background:rgba(248,248,248,.30);">
+        <a class="dropdown-item" href="#">Header Fixed Image</a>
+        <a class="dropdown-item" href="#">Home Pattern</a>
+        <a class="dropdown-item" href="#">Home Image Slider</a>
+        <a class="dropdown-item" href="#">Home Video</a>
+      </div>
+    </li>
+
+    <li class=" nav-item d-flex text-white align-items-center">
+      <a class=" na nav-link"  href="#">TOP</a>
+    </li>
+    <li class="nav-item d-flex text-white align-items-center">
+      <a class="nav-link" href="#">SERVICES</a>
+    </li>
+    <li class="nav-item d-flex text-white align-items-center">
+      <a class="nav-link" href="#">FEATURES</a>
+    </li>
+    <li class="nav-item d-flex text-white align-items-center">
+      <a class="nav-link" href="#">CLIENTS</a>
+    </li>
+    <li class="nav-item d-flex text-white align-items-center">
+      <a class="nav-link" href="#">TEAM</a>
+    </li>
+    <li class="nav-item d-flex text-white align-items-center">
+      <a class="nav-link" href="#">FAQ</a>
+    </li>
+    <li class="nav-item d-flex text-white align-items-center">
+      <a class="nav-link" href="#">BLOG</a>
+    </li>
+  </ul>
+</nav>
+</div>
+
+
+
+
+<div class="container-fluid p-4">
+  <h2 ID="service">SERVICES</H2>
+    <hr width="5%" style="border:2px solid #b03704;margin-top:0px;">
+</div>
+<div class="container ">
+  <div class="py-10 gray1" ><h4>Lollipop powder danish sugar plum caramels<br>liquorice sweet cookie</h4></div>
+  <div class="row py-4">
+  <div class="card col-sm-3 card1">
+
+    <img class="card-img-top  mx-auto rounded-circle" src="icon.png" alt="Card image" style="width:80%">
+    <div class="card-body">
+      <h4 class="card-title">Landing Pages</h4>
+      <p class="card-text">We work together to develop uncomplicated marketing plans that meet business objectives.</p>
+    </div>
+  </div>
+  <div class="card col-sm-3 card1">
+    <img class=" mx-auto rounded-circle" src="man-user.png" alt="Card image" style="width:80%">
+    <div class="card-body">
+      <h4 class="card-title">Landing Pages</h4>
+      <p class="card-text">We work together to develop uncomplicated marketing plans that meet business objectives.</p>
+    </div>
+  </div>
+  <div class="card col-sm-3 card1">
+    <img class="card-img-top mx-auto rounded-circle" src="paper-push-pin.png" alt="Card image" style="width:80%">
+    <div class="card-body">
+      <h4 class="card-title">Landing Pages</h4>
+      <p class="card-text">We work together to develop uncomplicated marketing plans that meet business objectives.</p>
+    </div>
+  </div>
+  <div class="card col-sm-3 mx-auto  card1">
+    <img class="card-img-top rounded-circle" src="tag-black-shape.png" alt="Card image" style="width:80%">
+    <div class="card-body">
+      <h4 class="card-title">Landing Pages</h4>
+      <p class="card-text">We work together to develop uncomplicated marketing plans that meet business objectives.</p>
+    </div>
+  </div>
+  </div>
+
+
+
+</div>
